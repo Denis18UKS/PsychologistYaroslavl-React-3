@@ -1,0 +1,20 @@
+BUILD 3.0.0
+
+Runtime: React 16.0.0 + ReactDOM 16.0.0 (UMD, bundled locally)
+JSX transpilation: TypeScript transpileModule during local build
+Windows installer: Go, GOOS=windows GOARCH=amd64, CGO_ENABLED=0
+GUI mode: -H=windowsgui
+Default localhost port: 5193 (installer scans upward for a free port)
+Install dir: %LOCALAPPDATA%\PsychologistYaroslavlConcept3
+
+Smoke test performed against embedded Linux build:
+- / -> 200
+- /assets/styles.css -> 200
+- /assets/app.js -> 200
+- React runtime files -> 200
+- /version.json -> 200
+- ReactDOM.render present
+- createRoot absent
+- dark theme styles present
+- mobile media query present
+- animation keyframes present

@@ -1,0 +1,13 @@
+{
+  "name": "psychologist-yaroslavl-concept-3",
+  "private": true,
+  "version": "3.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "dependencies": {
+    "react": "16.0.0",
+    "react-dom": "16.0.0"
+  }
+}

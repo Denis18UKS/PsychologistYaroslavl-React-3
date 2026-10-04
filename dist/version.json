@@ -1,0 +1,6 @@
+{
+  "version": "3.0.0",
+  "appSha256": "737d9eaf7a37fb7976d53560535abb5e5f41ea34995007640df1a1c1084970cc",
+  "runtime": "React 16.0.0 autonomous",
+  "transpiler": "TypeScript"
+}
